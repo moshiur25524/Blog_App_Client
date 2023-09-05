@@ -1,0 +1,33 @@
+.post {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.texts h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.image {
+  width: 100%;
+}
+
+.info {
+  margin: 6px 0;
+  color: #888;
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+}
+
+.author {
+  color: #333;
+}
+
+.summary {
+  margin: 10px 0;
+  line-height: 1.4rem;
+}
