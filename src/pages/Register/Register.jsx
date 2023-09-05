@@ -1,10 +1,8 @@
-import "./Login.css";
-
-const Login = () => {
+const Register = () => {
   return (
-    <div>
-      <form action="" className="login">
-        <h1>Login</h1>
+    <>
+      <form action="" className="register">
+        <h1>Register</h1>
         <input
           type="email"
           name="email"
@@ -19,10 +17,10 @@ const Login = () => {
           id=""
           required
         />
-        <button>Login</button>
+        <button>Register</button>
       </form>
-    </div>
+    </>
   );
 };
 
-export default Login;
+export default Register;
