@@ -4,6 +4,7 @@ import Login from "../pages/Login/Login";
 import Home from "../App";
 import Register from "../pages/Register/Register";
 import CreatePost from "../pages/Posts/CreatePost";
+import PostPage from "../pages/PostPage/PostPage";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "create",
         element: <CreatePost />,
+      },
+      {
+        path: "post/:id",
+        element: <PostPage />,
       },
     ],
   },

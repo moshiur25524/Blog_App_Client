@@ -1,13 +1,23 @@
 .post {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: 1fr;
   gap: 10px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .post {
+    grid-template-columns: 0.9fr 1.1fr;
+  }
 }
 
 .texts h2 {
   margin: 0;
   font-size: 1.5rem;
+}
+
+.texts a {
+  color: inherit;
 }
 
 .image {
