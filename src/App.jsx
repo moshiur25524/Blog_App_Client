@@ -1,11 +1,21 @@
+import { useEffect, useState } from "react";
 import "./App.css";
-import Posts from "./pages/Posts/Posts";
+import Post from "./pages/Posts/Posts";
 function Home() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((posts) => setPosts(posts));
+  }, []);
   return (
     <>
-      <Posts />
-      <Posts />
-      <Posts />
+      <div>
+        {posts.map((post) => (
+          <Post key={post._id} {...post} />
+        ))}
+      </div>
     </>
   );
 }

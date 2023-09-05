@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "title": "Introduction to Web Development",
+    "summary": "Learn the basics of web development and how to get started.",
+    "author": "Web Dev Guru",
+    "date": "2023-09-05",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "_id": 2,
+    "title": "React.js: A Powerful Frontend Library",
+    "summary": "Discover the wonders of React.js and its role in modern web development.",
+    "author": "Frontend Enthusiast",
+    "date": "2023-09-10",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "_id": 3,
+    "title": "The Science Behind JavaScript",
+    "summary": "Dive into the science and technology that powers JavaScript.",
+    "author": "Tech Geek",
+    "date": "2023-09-15",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  }
+]
