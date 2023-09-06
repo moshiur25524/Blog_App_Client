@@ -16,7 +16,7 @@
 }
 
 .post-page a {
-  color: #333;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -36,4 +36,24 @@
 
 .post-page .content p {
   line-height: 1.6rem;
+}
+
+.edit-row {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a.edit-btn {
+  background-color: #333;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+a svg {
+  height: 20px;
 }
